@@ -8,5 +8,3 @@ int main()
     cout << "\n";
     cout << "How u doing?";
 }
-
-// hi
