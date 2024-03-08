@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>WIN_20231227_10_13_14_Pro.jpg</filename>
+	<path>D:\JavaScript\NoteBook_det2\dataset\images\WIN_20231227_10_13_14_Pro.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>notebook</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>584</xmin>
+			<ymin>131</ymin>
+			<xmax>930</xmax>
+			<ymax>604</ymax>
+		</bndbox>
+	</object>
+</annotation>

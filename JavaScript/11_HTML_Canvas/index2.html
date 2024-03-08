@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Cropping</title>
+</head>
+<body>
+    <!-- Original image -->
+    <img id="sourceImage" src="zuni_paint.png" alt="Source Image" width="400" height="300">
+    
+    <!-- Canvas for drawing and capturing screenshot -->
+    <canvas id="myCanvas" width="400" height="300" style="border:1px solid #000;"></canvas>
+    
+    <!-- Button to crop and display a portion of the image -->
+    <button onclick="cropAndDisplay()">Crop and Display</button>
+    
+    <!-- Display the cropped image -->
+    <!-- <img id="croppedImage" alt="Cropped Image">-->
+    
+    <script>
+        function cropAndDisplay() {
+            var canvas = document.getElementById('myCanvas');
+            var croppedImage = document.getElementById('croppedImage');
+            var sourceImage = document.getElementById('sourceImage');
+            
+            // Define the crop coordinates and dimensions
+            var cropX = 50; // X-coordinate of the top-left corner of the cropped area
+            var cropY = 50; // Y-coordinate of the top-left corner of the cropped area
+            var cropWidth = 200; // Width of the cropped area
+            var cropHeight = 150; // Height of the cropped area
+            
+            // Draw the cropped portion of the source image onto the canvas
+            var ctx = canvas.getContext('2d');
+            ctx.drawImage(sourceImage, cropX, cropY, cropWidth, cropHeight, 0, 0, canvas.width, canvas.height);
+            
+            // Get the data URL of the canvas content
+            var dataURL = canvas.toDataURL('image/png');
+            
+            // Set the data URL as the source for the image element
+            croppedImage.src = dataURL;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Processing</title>
+  <script src="https://www.lactame.com/lib/image-js/0.21.2/image.min.js"></script>
+</head>
+<body>
+  <img id="color" src="./images/Notebook.png" />
+  <canvas id="canvas" style="display: none;"></canvas>
+
+  <script>
+    async function process() {
+      // Load the image
+      let image = await IJS.Image.load(document.getElementById('color').src);
+
+      // Apply unsharp mask without blur
+      const sharpened = unsharpMaskWithoutBlur(image, 5); // Adjust the amount as needed
+
+      // Convert the sharpened image to a data URL
+      const sharpenedDataURL = sharpened.toDataURL();
+
+      // Display the sharpened image
+      document.getElementById('result').src = sharpenedDataURL;
+    }
+
+    // Define the unsharpMaskWithoutBlur function
+    function unsharpMaskWithoutBlur(image, amount) {
+      // Get the pixel data
+      let data = image.data;
+      for (let i = 0; i < data.length; i += 4) {
+        let originalPixelValue = data[i];
+        let sharpenedPixelValue = originalPixelValue + amount * (originalPixelValue - data[i]); // Formula for unsharp mask without blur
+        data[i] = sharpenedPixelValue;
+        data[i + 1] = sharpenedPixelValue;
+        data[i + 2] = sharpenedPixelValue;
+      }
+
+      return image;
+    }
+
+    process();
+  </script>
+</body>
+</html>

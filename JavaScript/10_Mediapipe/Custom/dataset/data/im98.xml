@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>im98.png</filename>
+	<path>D:\JavaScript\NoteBook_det2\dataset\images\im98.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2360</width>
+		<height>1992</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>notebook</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>730</xmin>
+			<ymin>12</ymin>
+			<xmax>1508</xmax>
+			<ymax>1818</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>WIN_20240102_10_25_48_Pro.jpg</filename>
+	<path>D:\JavaScript\NoteBook_det2\dataset\images\WIN_20240102_10_25_48_Pro.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>partial</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>575</xmin>
+			<ymin>328</ymin>
+			<xmax>947</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+</annotation>

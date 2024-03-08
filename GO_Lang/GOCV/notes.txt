@@ -1,0 +1,3 @@
+Crack detection:
+
+1) work on MegaPixel

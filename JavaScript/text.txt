@@ -1,0 +1,6 @@
+html, css
+dom,
+promicess
+cam read (canva)
+model putting
+git

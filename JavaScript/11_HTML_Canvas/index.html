@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Screenshot</title>
+</head>
+<body>
+    <!-- Original image -->
+    <img id="sourceImage" src="zuni_paint.png" alt="Source Image" width="400" height="300">
+
+    <!-- Canvas for drawing and capturing screenshot -->
+    <canvas id="myCanvas" width="400" height="300" style="border:1px solid #000;"></canvas>
+
+    <!-- Button to capture screenshot -->
+    <button onclick="takeScreenshot()">Take Screenshot</button>
+
+    <!-- Display captured screenshot image -->
+    <!-- <img id="screenshotImage" alt="Screenshot"> -->
+
+    <script>
+        function takeScreenshot() {
+            var canvas = document.getElementById('myCanvas');
+            var screenshotImage = document.getElementById('screenshotImage');
+            var sourceImage = document.getElementById('sourceImage');
+            
+            // Draw the source image onto the canvas
+            var ctx = canvas.getContext('2d');
+            ctx.drawImage(sourceImage, 0, 0, canvas.width, canvas.height);
+            
+            // Get the data URL of the canvas content
+            var dataURL = canvas.toDataURL('image/png');
+            
+            // Set the data URL as the source for the image element
+            screenshotImage.src = dataURL;
+        }
+    </script>
+</body>
+</html>
