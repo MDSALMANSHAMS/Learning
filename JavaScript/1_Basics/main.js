@@ -1,22 +1,22 @@
-console.log("Hi, world")
-num = 122
-console.log(num)
+console.log("Hi, world");
+num = 122;
+console.log(num);
 
 {
-    let num = 123
-    console.log(num)
+  let num = 123;
+  console.log(num);
 }
 
 {
-    let num = 124
-    console.log(num)
+  let num = 124;
+  console.log(num);
 }
 
 const student = {
-    name: 'Rahul',
-    age: 23,
-    isPass: true,
-    weight: 62.2,
+  name: "Rahul",
+  age: 23,
+  isPass: true,
+  weight: 62.2,
 };
 
 console.log(student);
