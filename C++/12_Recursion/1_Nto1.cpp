@@ -15,5 +15,5 @@ void nto1(int n)
 
 int main()
 {
-    nto1(3);
+    nto1(10);
 }
