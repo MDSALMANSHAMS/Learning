@@ -1,11 +1,16 @@
 #include <iostream>
 using namespace std;
 
+int squar(int a)
+{
+    return a * a;
+}
+
 int main()
 {
     int x;
 
     cout << "enter your no.: ";
     cin >> x;
-    cout << x * x << endl;
+    cout << "Squar: " << squar(x) << endl;
 }
