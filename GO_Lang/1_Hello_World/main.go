@@ -10,3 +10,5 @@ func main() {
 
 	fmt.Printf("%v, what's up?\n", name)
 }
+
+// good

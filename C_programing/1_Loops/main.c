@@ -6,9 +6,9 @@
 //     }
     
 // }
-
+ 
 #include <stdio.h>       
-
+// good
 int main() {
     int i; 
 
