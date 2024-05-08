@@ -285,7 +285,7 @@ if (age == 18) console.log('You just became an adult :D (loose)');
 const favourite = Number(prompt("What's your favourite number?"));
 console.log(favourite);
 console.log(typeof favourite);
-
+ 
 if (favourite === 23) { // 22 === 23 -> FALSE
   console.log('Cool! 23 is an amzaing number!')
 } else if (favourite === 7) {
