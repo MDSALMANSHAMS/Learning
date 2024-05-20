@@ -4,8 +4,10 @@ using namespace std;
 
 int main()
 {
-    for (int i = 0; i <20; i++){
-        if (i == 3 || i ==8) continue;
+    for (int i = 0; i < 20; i++)
+    {
+        if (i == 3 || i == 8)
+            continue;
         cout << i << endl;
     }
     return 0;
