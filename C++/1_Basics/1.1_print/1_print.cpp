@@ -7,6 +7,7 @@ int main()
          << "Hi!!";
     cout << "\n";
     cout << "How u doing?";
+    // printf("hi_2");
 }
 
 // 1. #include <iostream>: This line includes the input-output stream library (iostream),
