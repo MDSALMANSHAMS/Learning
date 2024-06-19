@@ -250,6 +250,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Value Computed by CMake
+Cpp_imageProcessing_BINARY_DIR:STATIC=F:/My_projects/Learning/build
+
+//Value Computed by CMake
+Cpp_imageProcessing_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Cpp_imageProcessing_SOURCE_DIR:STATIC=F:/My_projects/Learning/C++_imageProcessing
+
 //The directory containing a CMake configuration file for OpenCVConfig.
 OpenCVConfig_DIR:PATH=OpenCVConfig_DIR-NOTFOUND
 
@@ -420,7 +429,7 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[D:/opencv/build][v4.8.1()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[D:/opencv_cpp/opencv_repo/build][v4.10.0()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 

@@ -3,7 +3,7 @@
 
 int main()
 {
-    std::cout << "Starting the application..." << std::endl;
+    std::cout << "Starting the application...." << std::endl;
 
     // Use an absolute path to the image
     std::string imagePath = "F:/My_projects/Learning/C++_imageProcessing/images/art.jpg";

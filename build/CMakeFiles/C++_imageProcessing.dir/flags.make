@@ -4,7 +4,7 @@
 # compile CXX with D:/minGW/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/C++_imageProcessing.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g
 

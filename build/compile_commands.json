@@ -1,8 +1,8 @@
 [
 {
   "directory": "F:/My_projects/Learning/build",
-  "command": "D:\\minGW\\bin\\g++.exe   -g -o CMakeFiles\\C++_imageProcessing.dir\\src\\main.cpp.obj -c F:\\My_projects\\Learning\\C++_imageProcessing\\src\\main.cpp",
-  "file": "F:/My_projects/Learning/C++_imageProcessing/src/main.cpp",
-  "output": "CMakeFiles/C++_imageProcessing.dir/src/main.cpp.obj"
+  "command": "D:\\minGW\\bin\\g++.exe  @CMakeFiles/C++_imageProcessing.dir/includes_CXX.rsp -g -o CMakeFiles\\C++_imageProcessing.dir\\main_1.cpp.obj -c F:\\My_projects\\Learning\\C++_imageProcessing\\main_1.cpp",
+  "file": "F:/My_projects/Learning/C++_imageProcessing/main_1.cpp",
+  "output": "CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj"
 }
 ]

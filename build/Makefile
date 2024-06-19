@@ -128,29 +128,29 @@ C++_imageProcessing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/build
 .PHONY : C++_imageProcessing/fast
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+main_1.obj: main_1.cpp.obj
+.PHONY : main_1.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+main_1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj
+.PHONY : main_1.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+main_1.i: main_1.cpp.i
+.PHONY : main_1.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+main_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/main_1.cpp.i
+.PHONY : main_1.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+main_1.s: main_1.cpp.s
+.PHONY : main_1.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+main_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/main_1.cpp.s
+.PHONY : main_1.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C++_imageProcessing
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... main_1.obj
+	@echo ... main_1.i
+	@echo ... main_1.s
 .PHONY : help
 
 
