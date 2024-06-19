@@ -1,0 +1,11 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Specific file types to normalize
+*.html text
+*.css text
+*.js text
+*.txt text
+*.md text
+*.py text
+*.ipynb text
