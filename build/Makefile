@@ -128,29 +128,29 @@ C++_imageProcessing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/build
 .PHONY : C++_imageProcessing/fast
 
-main_1.obj: main_1.cpp.obj
-.PHONY : main_1.obj
+1_geometric_operations/5_shear.obj: 1_geometric_operations/5_shear.cpp.obj
+.PHONY : 1_geometric_operations/5_shear.obj
 
 # target to build an object file
-main_1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj
-.PHONY : main_1.cpp.obj
+1_geometric_operations/5_shear.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj
+.PHONY : 1_geometric_operations/5_shear.cpp.obj
 
-main_1.i: main_1.cpp.i
-.PHONY : main_1.i
+1_geometric_operations/5_shear.i: 1_geometric_operations/5_shear.cpp.i
+.PHONY : 1_geometric_operations/5_shear.i
 
 # target to preprocess a source file
-main_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/main_1.cpp.i
-.PHONY : main_1.cpp.i
+1_geometric_operations/5_shear.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.i
+.PHONY : 1_geometric_operations/5_shear.cpp.i
 
-main_1.s: main_1.cpp.s
-.PHONY : main_1.s
+1_geometric_operations/5_shear.s: 1_geometric_operations/5_shear.cpp.s
+.PHONY : 1_geometric_operations/5_shear.s
 
 # target to generate assembly for a file
-main_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/main_1.cpp.s
-.PHONY : main_1.cpp.s
+1_geometric_operations/5_shear.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C++_imageProcessing.dir\build.make CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.s
+.PHONY : 1_geometric_operations/5_shear.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C++_imageProcessing
-	@echo ... main_1.obj
-	@echo ... main_1.i
-	@echo ... main_1.s
+	@echo ... 1_geometric_operations/5_shear.obj
+	@echo ... 1_geometric_operations/5_shear.i
+	@echo ... 1_geometric_operations/5_shear.s
 .PHONY : help
 
 

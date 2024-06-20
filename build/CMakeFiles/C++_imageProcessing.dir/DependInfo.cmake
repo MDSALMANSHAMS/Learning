@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/My_projects/Learning/C++_imageProcessing/main_1.cpp" "CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj" "gcc" "CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj.d"
+  "F:/My_projects/Learning/C++_imageProcessing/1_geometric_operations/5_shear.cpp" "CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj" "gcc" "CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

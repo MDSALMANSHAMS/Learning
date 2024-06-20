@@ -68,29 +68,29 @@ include CMakeFiles/C++_imageProcessing.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C++_imageProcessing.dir/flags.make
 
-CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj: CMakeFiles/C++_imageProcessing.dir/flags.make
-CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj: CMakeFiles/C++_imageProcessing.dir/includes_CXX.rsp
-CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj: F:/My_projects/Learning/C++_imageProcessing/main_1.cpp
-CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj: CMakeFiles/C++_imageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\My_projects\Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj"
-	D:\minGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj -MF CMakeFiles\C++_imageProcessing.dir\main_1.cpp.obj.d -o CMakeFiles\C++_imageProcessing.dir\main_1.cpp.obj -c F:\My_projects\Learning\C++_imageProcessing\main_1.cpp
+CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj: CMakeFiles/C++_imageProcessing.dir/flags.make
+CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj: CMakeFiles/C++_imageProcessing.dir/includes_CXX.rsp
+CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj: F:/My_projects/Learning/C++_imageProcessing/1_geometric_operations/5_shear.cpp
+CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj: CMakeFiles/C++_imageProcessing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\My_projects\Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj"
+	D:\minGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj -MF CMakeFiles\C++_imageProcessing.dir\1_geometric_operations\5_shear.cpp.obj.d -o CMakeFiles\C++_imageProcessing.dir\1_geometric_operations\5_shear.cpp.obj -c F:\My_projects\Learning\C++_imageProcessing\1_geometric_operations\5_shear.cpp
 
-CMakeFiles/C++_imageProcessing.dir/main_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/C++_imageProcessing.dir/main_1.cpp.i"
-	D:\minGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\My_projects\Learning\C++_imageProcessing\main_1.cpp > CMakeFiles\C++_imageProcessing.dir\main_1.cpp.i
+CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.i"
+	D:\minGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\My_projects\Learning\C++_imageProcessing\1_geometric_operations\5_shear.cpp > CMakeFiles\C++_imageProcessing.dir\1_geometric_operations\5_shear.cpp.i
 
-CMakeFiles/C++_imageProcessing.dir/main_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/C++_imageProcessing.dir/main_1.cpp.s"
-	D:\minGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\My_projects\Learning\C++_imageProcessing\main_1.cpp -o CMakeFiles\C++_imageProcessing.dir\main_1.cpp.s
+CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.s"
+	D:\minGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\My_projects\Learning\C++_imageProcessing\1_geometric_operations\5_shear.cpp -o CMakeFiles\C++_imageProcessing.dir\1_geometric_operations\5_shear.cpp.s
 
 # Object files for target C++_imageProcessing
 C_______imageProcessing_OBJECTS = \
-"CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj"
+"CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj"
 
 # External object files for target C++_imageProcessing
 C_______imageProcessing_EXTERNAL_OBJECTS =
 
-C++_imageProcessing.exe: CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj
+C++_imageProcessing.exe: CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj
 C++_imageProcessing.exe: CMakeFiles/C++_imageProcessing.dir/build.make
 C++_imageProcessing.exe: D:/opencv_cpp/opencv_repo/build/lib/libopencv_gapi4100.dll.a
 C++_imageProcessing.exe: D:/opencv_cpp/opencv_repo/build/lib/libopencv_highgui4100.dll.a

@@ -1,8 +1,8 @@
 [
 {
   "directory": "F:/My_projects/Learning/build",
-  "command": "D:\\minGW\\bin\\g++.exe  @CMakeFiles/C++_imageProcessing.dir/includes_CXX.rsp -g -o CMakeFiles\\C++_imageProcessing.dir\\main_1.cpp.obj -c F:\\My_projects\\Learning\\C++_imageProcessing\\main_1.cpp",
-  "file": "F:/My_projects/Learning/C++_imageProcessing/main_1.cpp",
-  "output": "CMakeFiles/C++_imageProcessing.dir/main_1.cpp.obj"
+  "command": "D:\\minGW\\bin\\g++.exe  @CMakeFiles/C++_imageProcessing.dir/includes_CXX.rsp -g -o CMakeFiles\\C++_imageProcessing.dir\\1_geometric_operations\\5_shear.cpp.obj -c F:\\My_projects\\Learning\\C++_imageProcessing\\1_geometric_operations\\5_shear.cpp",
+  "file": "F:/My_projects/Learning/C++_imageProcessing/1_geometric_operations/5_shear.cpp",
+  "output": "CMakeFiles/C++_imageProcessing.dir/1_geometric_operations/5_shear.cpp.obj"
 }
 ]
