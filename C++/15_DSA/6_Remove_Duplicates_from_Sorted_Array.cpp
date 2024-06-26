@@ -30,3 +30,28 @@ Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 */
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int nums[] = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4, 4};
+    int length = sizeof(nums) / 4;
+
+    int new_arr[] = {};
+    int k = 0;
+
+    cout << "new_arr: ";
+    for (int i = 0; i < length; i++)
+    {
+        if (nums[i] != nums[i + 1])
+        {
+            k++;
+            new_arr[i] = nums[i];
+            cout << new_arr[i] << " ";
+        }
+    }
+    cout << endl;
+    cout << "length: " << k << endl;
+}
