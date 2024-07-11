@@ -14,3 +14,5 @@ int main()
     cin >> x;
     cout << "Squar: " << squar(x) << endl;
 }
+
+// test
