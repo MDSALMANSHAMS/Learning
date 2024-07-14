@@ -23,7 +23,7 @@ int main()
     cout << vect_2.size() << endl;
     vect_2.push_back(1);
     cout << vect_2.size() << endl;
-    vect_2.pop_back();
+    // vect_2.pop_back();
 
     cout << "vect_2: ";
     for (int i = 0; i < vect_2.size(); i++)

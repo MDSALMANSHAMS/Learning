@@ -17,10 +17,11 @@ void reverse(int arr[], int i, int j)
 
 int main()
 {
-    int arr[] = {1, 2, 3, 4};
+    int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     int length = sizeof(arr) / 4;
     int k = 7;
     int rem = k % length;
+    cout << rem << endl;
 
     reverse(arr, 0, length - rem - 1);
     reverse(arr, length - rem, length - 1);
