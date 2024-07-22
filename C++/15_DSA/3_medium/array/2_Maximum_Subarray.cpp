@@ -30,7 +30,7 @@ int max_sum(vector<int> &nums, int len)
         for (int j = i + 1; j < len; j++)
         {
             current_sum = current_sum + nums[j];
-            cout << "hi: " << current_sum << " " << large_sum << endl;
+            // cout << "hi: " << current_sum << " " << large_sum << endl;
             large_sum = max(current_sum, large_sum);
             // cout << large_sum << endl;
         }
@@ -43,7 +43,7 @@ int max_sum(vector<int> &nums, int len)
 
 int main()
 {
-    vector<int> nums = {1};
+    vector<int> nums = {5, 4, -1, 7, 8};
     int len = nums.size();
 
     int result = max_sum(nums, len);
