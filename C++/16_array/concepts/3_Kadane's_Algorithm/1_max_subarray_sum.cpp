@@ -10,6 +10,7 @@ int kadane(vector<int> &nums, int len)
     {
         current_sum = current_sum + nums[i];
 
+        // max_sum = max(current_sum, max_sum)
         if (current_sum > max_sum)
             max_sum = current_sum;
 
