@@ -40,6 +40,4 @@ int main()
     int i = 9;
     string str3 = to_string(i);
     cout << str3 << endl;
-
-    // sort
 }
