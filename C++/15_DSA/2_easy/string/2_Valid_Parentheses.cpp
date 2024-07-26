@@ -24,30 +24,32 @@ using namespace std;
 
 int main()
 {
-    string s = "()[]{}";
+    string s = "(]";
     int length = s.length();
 
     bool condition = false;
 
-    for (int i = 0; i < length; i++)
+    for (int i = 0; i < length - 1; i++)
     {
-        for (int j = 1; j < length; j++)
+        for (int j = i + 1; j < length; j++)
         {
             if (s[i] == '(' && s[j] == ')')
             {
                 condition = true;
             }
-            if (s[i] == '[' && s[j] == ']')
+            else if (s[i] == '[' && s[j] == ']')
             {
                 condition = true;
             }
-            if (s[i] == '{' && s[j] == '}')
+            else if (s[i] == '{' && s[j] == '}')
             {
                 condition = true;
             }
 
             else
+            {
                 condition = false;
+            }
         }
     }
     cout << condition;
