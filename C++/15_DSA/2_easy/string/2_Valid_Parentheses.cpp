@@ -31,7 +31,7 @@ int main()
 
     for (int i = 0; i < length; i++)
     {
-        for (int j = 1; j < length; i++)
+        for (int j = 1; j < length; j++)
         {
             if (s[i] == '(' && s[j] == ')')
             {
@@ -49,6 +49,6 @@ int main()
             else
                 condition = false;
         }
-        cout << condition;
     }
+    cout << condition;
 }
