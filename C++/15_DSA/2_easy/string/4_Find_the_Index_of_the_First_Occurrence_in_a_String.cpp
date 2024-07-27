@@ -18,19 +18,26 @@ Explanation: "leeto" did not occur in "leetcode", so we return -1.
 #include <string>
 using namespace std;
 
-int main()
+int check(string haystack, string needle)
 {
-    string haystack = "sadbutsad", needle = "sad";
-    bool cond = false;
-
-    for (int i = 0; i < needle.size(); i++)
+    for (int i = 0; i < haystack.size(); i++)
     {
-        for (int j = 0; j < haystack.size(); j++)
+        if (needle[0] == haystack[i])
         {
-            if (needle[i] == haystack[j])
-                (
-
-                )
+            if (haystack.substr(i, needle.size()) == needle)
+            {
+                return i;
+            }
         }
     }
+    return -1;
+}
+
+int main()
+{
+    string haystack = "leetcode", needle = "et";
+    // cout << haystack.substr(3, 3);
+
+    cout << check(haystack, needle);
+    return 0;
 }
