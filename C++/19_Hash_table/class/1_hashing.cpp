@@ -23,7 +23,7 @@ When 2 element have same hash value.
    c. double hashing
 */
 
-// seperate chaning
+// seperate chaning (changes)
 
 #include <iostream>
 #include <vector>
