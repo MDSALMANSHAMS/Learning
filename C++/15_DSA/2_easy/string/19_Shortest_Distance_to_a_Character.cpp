@@ -27,35 +27,34 @@ int main()
 {
     string s = "loveleetcode";
     char c = 'e';
-    vector<int> ans = {};
-    int point_r = 0;
-    int point_l = 0;
+    vector<int> ans = {}, index_sequence = {};
+    int point = 0;
 
     for (int i = 0; i < s.size(); i++)
     {
         if (s[i] == c)
         {
-            point_r = i;
             // cout << i << " ";
+            index_sequence.push_back(i);
+        }
+    }
 
-            cout << point_l << " ";
-            for (int j = point_l; j < point_r; j++)
+    for (int i = 0; i < index_sequence.size(); i++)
+    {
+        for (int j = point; j < s.size(); j++)
+        {
+
+            if (s[j] != c)
             {
-                if (s[j] != c)
-                {
-                    // cout << point_r - j << " ";
-                    //  ans.push_back(point_r - j);
-                }
+                cout << index_sequence[i] - j << " ";
+            }
 
-                if (s[j] == c)
-                {
-                    // cout << point_r - j << " ";
-                    point_l = j + 1;
-                    break;
-                }
+            else
+            {
+                cout << index_sequence[i] - j << " ";
+                point = index_sequence[i] + 1;
+                break;
             }
         }
-
-        // cout << endl;
     }
 }
