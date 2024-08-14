@@ -48,5 +48,5 @@ int main()
                 sum += nums[j];
         }
     }
-    cout << result << endl;
+    // cout << result << endl;
 }
