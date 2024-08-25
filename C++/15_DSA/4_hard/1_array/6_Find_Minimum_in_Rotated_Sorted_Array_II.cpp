@@ -13,6 +13,8 @@ Output: 1
 Example 2:
 Input: nums = [2,2,2,0,1]
 Output: 0
+
+binary search
 */
 
 #include <iostream>
