@@ -31,5 +31,17 @@ int main()
 
     for (int i = 0; i < words.size(); i++)
     {
+        for (int j = 0; j < words.size(); j++)
+        {
+            if (j == i)
+                continue;
+
+            for (int k = words[j].size() - 1; k > 0; k++)
+            {
+                char c = words[j][k];
+                if (c == words[i][words[j].size() - k])
+                    cout << c << " ";
+            }
+        }
     }
 }
