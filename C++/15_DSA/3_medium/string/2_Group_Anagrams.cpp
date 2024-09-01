@@ -25,38 +25,39 @@ using namespace std;
 int main()
 {
     vector<string> strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-    vector<string> ans = {};
+    vector<vector<string>> ans(strs.size());
     string s1 = "", s2 = "";
 
-    for (int i = 0; i < strs.size() - 1; i++)
+    for (int i = 0; i < strs.size(); i++)
     {
-        for (int j = i + 1; j < strs.size(); j++)
-        {
-            // cout << i << " " << j << endl;
-            s1 = strs[i];
-            s2 = strs[j];
-            sort(s1.begin(), s1.end());
-            sort(s2.begin(), s2.end());
+        string temp = strs[i];
+        sort(temp.begin(), temp.end());
+        // cout << temp << " ";
 
-            if (s1 == s2 && !s1.empty())
+        // ans.push_back(strs);
+
+        for (int j = 0; j < ans.size(); j++)
+        {
+            // cout << j << " ";                // cout << j << " ";
+            if (temp == ans[j][0])
             {
-                cout << strs[j] << endl;
-                ans.push_back(strs[j]);
-                s1 = "";
-                s2 = "";
+                ans[j].push_back(strs[i]);
+                break;
             }
-            // cout << s1 << endl;
+
+            else
+            {
+                ans[j].push_back(strs[i]);
+            }
         }
     }
-
-    // cout << ans.size();
 
     for (int i = 0; i < ans.size(); i++)
     {
         for (int j = 0; j < ans[i].size(); j++)
         {
-            // cout << ans[i][j] << " ";
+            cout << i << " " << j << " " << ans[i][j] << " ";
         }
-        cout << endl;
+        // cout << endl;
     }
 }
