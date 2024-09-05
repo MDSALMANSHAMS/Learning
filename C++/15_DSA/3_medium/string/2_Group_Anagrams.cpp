@@ -20,44 +20,30 @@ Output: [["a"]]
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <unordered_map>
 using namespace std;
 
 int main()
 {
-    vector<string> strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-    vector<vector<string>> ans(strs.size());
-    string s1 = "", s2 = "";
+    vector<string> strs = {""};
+    unordered_map<string, vector<string>> ans;
 
+    string temp;
     for (int i = 0; i < strs.size(); i++)
     {
-        string temp = strs[i];
-        sort(temp.begin(), temp.end());
-        // cout << temp << " ";
-
-        // ans.push_back(strs);
-
-        for (int j = 0; j < ans.size(); j++)
-        {
-            // cout << j << " ";                // cout << j << " ";
-            if (temp == ans[j][0])
-            {
-                ans[j].push_back(strs[i]);
-                break;
-            }
-
-            else
-            {
-                ans[j].push_back(strs[i]);
-            }
-        }
+        temp = strs[i];
+        sort(strs[i].begin(), strs[i].end());
+        ans[strs[i]].push_back(temp);
     }
 
-    for (int i = 0; i < ans.size(); i++)
+    // Print the unordered_map
+    for (const auto &pair : ans)
     {
-        for (int j = 0; j < ans[i].size(); j++)
+        cout << "[ ";
+        for (const string &str : pair.second)
         {
-            cout << i << " " << j << " " << ans[i][j] << " ";
+            cout << str << " ";
         }
-        // cout << endl;
+        cout << "]" << endl;
     }
 }
