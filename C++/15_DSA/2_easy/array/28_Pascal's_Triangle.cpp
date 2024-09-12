@@ -18,17 +18,23 @@ using namespace std;
 
 int main()
 {
-    int numRows = 2;
+    int numRows = 4;
     vector<vector<int>> ans(numRows);
     ans[0].push_back(1);
 
     for (int i = 1; i < numRows; i++)
     {
-        for (int j = 0; j < 1 + i; j++)
+        ans[i].push_back(1);
+
+        // Calculate the intermediate values
+        for (int j = 1; j < i; j++)
         {
             int num = ans[i - 1][j - 1] + ans[i - 1][j];
             ans[i].push_back(num);
         }
+
+        // End each row with 1
+        ans[i].push_back(1);
     }
 
     for (int i = 0; i < ans.size(); i++)
