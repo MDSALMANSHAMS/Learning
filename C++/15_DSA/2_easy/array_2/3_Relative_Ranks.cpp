@@ -27,5 +27,37 @@ using namespace std;
 
 int main()
 {
-    vector<int> score = {5, 4, 3, 2, 1}, ans = {};
+    vector<int> score = {5, 4, 3, 2, 1};
+    vector<string> ans = {};
+    // out={1,5,3,2,4}
+
+    for (int i = 0; i < score.size(); i++)
+    {
+        int num = 1;
+        int s = score[i];
+
+        for (int j = 0; j < score.size(); j++)
+        {
+            // if (j == i)
+            //     continue;
+
+            if (s < score[j])
+                num++;
+        }
+
+        if (num == 1)
+            ans.push_back("Gold Medal");
+        if (num == 2)
+            ans.push_back("Silver Medal");
+        if (num == 3)
+            ans.push_back("Bronze Medal");
+        if (num == 4)
+            ans.push_back("4");
+        if (num == 5)
+            ans.push_back("5");
+    }
+    // ["Gold Medal","Silver Medal","Bronze Medal","4","5"]
+    // cout << ans.size();
+    for (string a : ans)
+        cout << a << " ";
 }
