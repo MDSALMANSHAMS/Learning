@@ -35,6 +35,7 @@ int main()
         cout << v[i] << " ";
     }
     cout << endl;
+
     sort2(v);
     for (int i = 0; i < v.size(); i++)
     {
