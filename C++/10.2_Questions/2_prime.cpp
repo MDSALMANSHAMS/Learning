@@ -1,11 +1,9 @@
+// Prime or composite number check
 #include <iostream>
 using namespace std;
 int main()
 {
-    int n;
-    cout << "enter n: ";
-    cin >> n;
-
+    int n = 17;
     bool flag = true;
     for (int i = 2; i <= n / 2; i++)
     {

@@ -12,7 +12,6 @@ int main()
 
     if ((i % 5 == 0 || i % 3 == 0) && (i % 15 != 0))
         cout << "result" << endl;
-
     else
         cout << "not result" << endl;
 }

@@ -3,11 +3,9 @@
 
 #include <iostream>
 using namespace std;
-
 int main()
 {
     int length, breadth;
-
     cout << "enter length: ";
     cin >> length;
     cout << "enter breadth: ";
@@ -18,7 +16,6 @@ int main()
 
     if (area > perimeter)
         cout << "area is greater" << endl;
-
     else
         cout << "area is smaller" << endl;
 }

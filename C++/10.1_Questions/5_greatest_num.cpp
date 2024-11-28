@@ -1,3 +1,4 @@
+// Greatest no. check
 #include <iostream>
 using namespace std;
 
@@ -8,11 +9,9 @@ int main()
     cin >> a >> b >> c;
 
     if (a > b && a > c)
-        cout << "a is greatet" << endl;
-
+        cout << "a is greatest" << endl;
     else if (b > c)
-        cout << "b is greatet" << endl;
-
+        cout << "b is greatest" << endl;
     else
-        cout << "c is greatet";
+        cout << "c is greatest";
 }
