@@ -1,0 +1,28 @@
+1. Best for Numerical Computation
+- Small Data: NumPy, SciPy
+- Large Data: Dask, JAX, CuPy
+
+2. Best for Deep Learning
+- Research: PyTorch, JAX
+- Production: TensorFlow, MXNet
+
+3. Best for Specialized Use Cases
+- Image Processing: OpenCV
+- Distributed Computing: Dask
+- High-Performance Systems: ArrayFire
+
+4. Best for Data Analysis
+- Small/Medium Data: Pandas
+- Large Data: Vaex, Dask
+- Best for Scientific Computing
+- Advanced Math Tools: SciPy
+- Engineering Applications: MATLAB
+
+5. Best for GPU Acceleration
+- NumPy-Compatible: CuPy
+- Cross-Platform HPC: ArrayFire
+
+6. Best for Language-Specific Workflows
+- Python: PyTorch, TensorFlow, JAX, NumPy
+- Julia: Flux.jl, Julia Base
+- C++: ArrayFire, OpenCV
