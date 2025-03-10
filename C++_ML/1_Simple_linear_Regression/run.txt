@@ -1,0 +1,6 @@
+To run .exe:
+
+$env:PYTHONHOME="C:\ProgramData\Anaconda3"
+$env:PYTHONPATH="C:\ProgramData\Anaconda3\Lib;C:\ProgramData\Anaconda3\Lib\site-packages"
+$env:QT_PLUGIN_PATH = "C:\ProgramData\Anaconda3\Library\plugins"
+./output.exe
