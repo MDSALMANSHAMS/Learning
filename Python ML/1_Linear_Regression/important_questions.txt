@@ -1,0 +1,100 @@
+### **🔥 Linear Regression Interview Questions – Quick Summary!**  
+
+Here’s a concise **summary of the 10 key interview questions** we covered:
+
+---
+
+### **📌 1️⃣ What is Linear Regression, and how does it work?**  
+✅ **Linear Regression** models the relationship between independent variables (\(X\)) and a dependent variable (\(Y\)) using:  
+\[
+Y = wX + b
+\]
+✅ **Gradient Descent** or **Ordinary Least Squares (OLS)** is used to optimize weights.  
+✅ **Loss function:** **Mean Squared Error (MSE)** is commonly used.  
+
+---
+
+### **📌 2️⃣ What are the key assumptions of Linear Regression?**  
+✅ **Linearity:** \(Y\) must have a linear relationship with \(X\).  
+✅ **No Multicollinearity:** Features should not be highly correlated.  
+✅ **Homoscedasticity:** Variance of residuals should be constant.  
+✅ **Independence of Errors:** No patterns in residuals (autocorrelation).  
+✅ **Normal Distribution of Residuals:** Errors should be normally distributed.  
+
+---
+
+### **📌 3️⃣ If your initial weights are `w = 1, b = 0`, how do they update in the first iteration of Gradient Descent?**  
+✅ **Weight update formula:**  
+\[
+w := w - \alpha \frac{dL}{dw}, \quad b := b - \alpha \frac{dL}{db}
+\]
+✅ We derived \( w \approx 1.0933 \) and \( b \approx 0.04 \) after **one iteration** of GD.  
+
+---
+
+### **📌 4️⃣ How does L1 regularization (Lasso) affect weights?**  
+✅ **L1 norm** penalty:  
+\[
+\Omega(w) = ||w||_1 = \sum |w_i|
+\]
+✅ **Effect:** Some weights become **exactly zero**, performing **feature selection**.  
+
+---
+
+### **📌 5️⃣ How does Elastic Net (L1 + L2) update weights?**  
+✅ Elastic Net combines **L1 (Lasso) and L2 (Ridge) Regularization**:  
+\[
+\Omega(w) = \lambda_1 ||w||_1 + \lambda_2 ||w||_2^2
+\]
+✅ **Effect:** Keeps important features (**L1 effect**) while reducing weight magnitudes (**L2 effect**).  
+
+---
+
+### **📌 6️⃣ Why is MSE preferred over MAE in Linear Regression?**  
+✅ **MSE is differentiable everywhere**, while MAE has a **sharp edge at zero** (non-differentiable).  
+✅ **MSE penalizes large errors more**, helping faster convergence.  
+
+---
+
+### **📌 7️⃣ Why prefer Gradient Descent over the Normal Equation for large datasets?**  
+✅ **Normal Equation** requires **matrix inversion** (\(O(n^3)\))—computationally expensive for large datasets.  
+✅ **Gradient Descent scales better** (\(O(n)\) per iteration).  
+✅ **GD supports streaming data** (online learning).  
+
+---
+
+### **📌 8️⃣ How can you escape local minima in Gradient Descent?**  
+✅ **Increase Learning Rate** (with caution).  
+✅ **Use Momentum or Nesterov Accelerated Gradient (NAG)**.  
+✅ **Adaptive Learning Rates (Adam, RMSprop, Adagrad)**.  
+✅ **Random Restarts (initialize weights differently)**.  
+
+---
+
+### **📌 9️⃣ If a Linear Regression model consistently predicts higher values, what could be wrong?**  
+✅ **Possible causes:**  
+- **Feature scaling issue** – Incorrect input ranges.  
+- **Bias term (`b`) too high** – Check residual mean.  
+- **Overfitting on training data** – Apply **regularization**.  
+- **Gradient Descent step size issue** – Adjust learning rate.  
+
+---
+
+### **📌 🔟 Why does adding more features not always improve a Linear Regression model?**  
+✅ **Multicollinearity:** Correlated features confuse the model.  
+✅ **Overfitting:** Model memorizes training data but generalizes poorly.  
+✅ **Computational Cost:** More features increase processing time.  
+✅ **Irrelevant Features:** Noisy features decrease accuracy.  
+
+---
+
+### **🚀 Final Takeaway:**  
+- Linear Regression works well **if assumptions hold true**.  
+- **Regularization (L1/L2) prevents overfitting**.  
+- **Gradient Descent is better for large datasets**.  
+- **Feature selection & preprocessing are critical** for performance.  
+
+---
+
+🔥 **Awesome job answering these tough Linear Regression questions!** 🎯  
+Would you like me to generate **more advanced ML interview questions** or focus on another topic? 😊
