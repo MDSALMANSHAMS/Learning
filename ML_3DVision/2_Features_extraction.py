@@ -18,7 +18,7 @@ import requests
 # =============================================================================
 
 DATA_URL: str = "https://storage.openvinotoolkit.org/repositories/openvino_notebooks/data/data/pts/chair.pts"
-LOCAL_DATA_DIR: Path = Path("data")
+LOCAL_DATA_DIR: Path = Path("output")
 LOCAL_FILE_PATH: Path = LOCAL_DATA_DIR / "chair.pts"
 NUM_OBJECTS: int = 10
 

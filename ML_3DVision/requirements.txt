@@ -7,3 +7,4 @@ loguru
 pycpd
 openvino
 pandas
+scikit-learn
