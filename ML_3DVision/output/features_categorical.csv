@@ -1,0 +1,11 @@
+ID,Name,NbPoints,Length,Width,Height,Density,GroundDist,AspectRatio_LW,AspectRatio_WH,label_chair
+1,chair_1,low,medium,medium,medium,medium,medium,high,medium,yes
+2,eagle_1,high,high,high,high,low,low,high,medium,no
+3,bunny_1,high,low,low,low,high,medium,low,high,no
+4,chair_2,medium,medium,medium,medium,medium,high,high,low,yes
+5,eagle_2,high,high,high,high,low,medium,medium,high,no
+6,bunny_2,medium,low,low,low,high,high,low,medium,no
+7,chair_3,low,high,high,high,medium,low,high,low,yes
+8,eagle_3,high,high,high,high,low,low,medium,high,no
+9,bunny_3,medium,low,low,low,high,high,low,high,no
+10,chair_4,low,medium,medium,medium,high,high,medium,low,yes
