@@ -1,13 +1,21 @@
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     cout << "Yo, what's up?" << endl;
+//     cout << endl
+//          << "Hi!!";
+//     cout << "\n";
+//     cout << "How u doing?";
+//     // printf("hi_2");
+// }
+
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    cout << "Yo, what's up?" << endl;
-    cout << endl
-         << "Hi!!";
-    cout << "\n";
-    cout << "How u doing?";
-    // printf("hi_2");
+    cout << "Hi" << endl;
 }
 
 // 1. #include <iostream>: This line includes the input-output stream library (iostream),
