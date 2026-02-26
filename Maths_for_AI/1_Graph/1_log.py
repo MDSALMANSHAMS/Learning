@@ -1,6 +1,6 @@
 import numpy as np
 import plotly.graph_objects as go
-
+# changes
 
 class LogGraph:
     def __init__(self, x_range=(0.1, 10), num_points=500, specific_points=None):
