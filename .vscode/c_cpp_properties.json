@@ -1,15 +1,15 @@
 {
   "configurations": [
     {
-      "name": "MinGW",
+      "name": "Win32",
       "includePath": [
         "${workspaceFolder}/**",
-        "D:/opencv_cpp/opencv/build/include",
-        "D:/opencv_cpp/opencv/build/include/opencv2"
+        "C:\\Users\\SCLPT 253\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\include",
+        "C:\\Users\\SCLPT 253\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include"
       ],
       "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
-      "compilerPath": "C:/mingw64/bin/gcc.exe",
-      "cStandard": "c11",
+      "compilerPath": "C:\\Users\\SCLPT 253\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.exe",
+      "cStandard": "c17",
       "cppStandard": "c++17",
       "intelliSenseMode": "gcc-x64"
     }

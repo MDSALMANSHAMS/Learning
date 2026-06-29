@@ -2,21 +2,29 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Compile & Run C++",
-            "type": "shell",
-            "command": "g++",
+            "label": "C++: Build Active File",
+            "type": "cppbuild",
+            "command": "C:\\Users\\SCLPT 253\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.exe",
             "args": [
-                "-I.",
-                "-I\"C:/Users/Admin/AppData/Local/Programs/Python/Python39/include\"",
-                "-L\"C:/Users/Admin/AppData/Local/Programs/Python/Python39/libs\"",
-                "-lpython39",
-                "main.cpp",
-                "-o", "main.exe"
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++17",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
+            "options": {
+                "cwd": "${fileDirname}",
+                "env": {
+                    "PATH": "C:\\Users\\SCLPT 253\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin;${env:PATH}"
+                }
+            },
+            "problemMatcher": ["$gcc"],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "detail": "Build the active C++ file — MinGW GCC 16.1.0"
         }
     ]
 }

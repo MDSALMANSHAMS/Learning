@@ -10,12 +10,18 @@
 //     // printf("hi_2");
 // }
 
+// PS D:\Projects\My\GitHub\Learning\C++\1_Basics\1.1_print> g++ 1_print.cpp -o 1_print.exe
+// PS D:\Projects\My\GitHub\Learning\C++\1_Basics\1.1_print> .\1_print.exe                 
+// Hi
+// PS D:\Projects\My\GitHub\Learning\C++\1_Basics\1.1_print> g++ 1_print.cpp -o 1_print.exe; .\1_print.exe
+// Hi
+
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    cout << "Hi" << endl;
+int main(){
+    cout << "hi" << endl;
+    return 0;
 }
 
 // 1. #include <iostream>: This line includes the input-output stream library (iostream),
