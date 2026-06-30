@@ -15,7 +15,39 @@ Output: 5, nums = [0,1,4,0,3,_,_,_]
 */
 
 #include <iostream>
+#include <vector>
 using namespace std;
+
+int main(){
+    int nums[4] = {3,2,2,3};
+    int val = 3;
+    int len_nums = sizeof(nums)/4;
+    vector<int> ans;
+    cout << sizeof(ans) / 4 << endl;
+
+    for (int i = 0; i <= len_nums-1; i++){
+        if (nums[i] != val){
+            ans.push_back(nums[i]);
+            cout << i << sizeof(ans) / 4 << endl;
+        }
+    }
+
+    cout << sizeof(ans) / 4 << endl;
+    // for (int i =0; i<=len_nums-1; i++){
+    //     cout << sizeof(ans)/4 << endl;
+    // }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 // // 1
 // int my_fun(int nums[], int length, int val)
@@ -46,31 +78,31 @@ using namespace std;
 // }
 
 // 2
-int main()
-{
-    int nums[] = {0, 1, 2, 2, 3, 0, 4, 2};
-    int length = sizeof(nums) / 4;
-    int val = 2;
+// int main()
+// {
+//     int nums[] = {0, 1, 2, 2, 3, 0, 4, 2};
+//     int length = sizeof(nums) / 4;
+//     int val = 2;
 
-    int index = 0;
-    int k = 0;
+//     int index = 0;
+//     int k = 0;
 
-    for (int i = 0; i < length; i++)
-    {
-        if (nums[i] != val)
-        {
-            nums[index] = nums[i];
-            index++;
-            k++;
-        }
-    }
+//     for (int i = 0; i < length; i++)
+//     {
+//         if (nums[i] != val)
+//         {
+//             nums[index] = nums[i];
+//             index++;
+//             k++;
+//         }
+//     }
 
-    cout << "k is: " << k << endl;
+//     cout << "k is: " << k << endl;
 
-    cout << "Modified array: [ ";
-    for (int i = 0; i < k; i++)
-    {
-        cout << nums[i] << " ";
-    }
-    cout << "]";
-}
+//     cout << "Modified array: [ ";
+//     for (int i = 0; i < k; i++)
+//     {
+//         cout << nums[i] << " ";
+//     }
+//     cout << "]";
+// }
